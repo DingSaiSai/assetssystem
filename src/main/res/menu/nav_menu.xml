@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--用来在Navigation中显示具体的菜单项-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--group表示一个组，single表示组中的所有菜单只能单选-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@mipmap/nav_plan"
+            android:title="存钱计划"/>
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@mipmap/nav_summary"
+            android:title="账单总结"/>
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@mipmap/nav_alarm"
+            android:title="提醒"/>
+        <item
+            android:id="@+id/nav_auto_account"
+            android:icon="@mipmap/nav_account"
+            android:title="自动记账"/>
+
+    </group>
+
+
+    <item android:title="通用...">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@mipmap/nav_setting"
+                    android:title="设置"/>
+                <item
+                    android:id="@+id/nav_advice"
+                    android:icon="@mipmap/nav_advice"
+                    android:title="意见反馈"/>
+                <item
+                    android:id="@+id/nav_aboutus"
+                    android:icon="@mipmap/nav_about"
+                    android:title="关于我们"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="更多...">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_version"
+                    android:icon="@mipmap/nav_version"
+                    android:title="当前版本"/>
+
+                <item
+                    android:id="@+id/nav_recommendation"
+                    android:icon="@mipmap/nav_recommendation"
+                    android:title="精品推荐"/>
+            </group>
+        </menu>
+    </item>
+</menu>

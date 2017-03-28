@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#00A8F1</color>
+    <color name="colorPrimaryDark">#00A8F1</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="register_bg_color">#F7F7F7</color>
+    <color name="register_hint_text_color">#AEAEAE</color>
+    <color name="login_btn_text_color">#0fc4d9</color>
+
+    <color name="tab_selected">#00A8F1</color>
+    <color name="gray">#dedede</color>
+
+    <color name="md_blue_500">#2196f3</color>
+    <color name="md_blue_grey_500">#607d8b</color>
+    <color name="md_red_500">#f44336</color>
+    <color name="md_green_500">#4caf50</color>
+    <color name="md_falcon_500">#384e77</color>
 </resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Navigation头部布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="180dp"
+              android:background="?attr/colorPrimary"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/default_user_icon"/>
+
+        <TextView
+            android:id="@+id/login_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="点击登录"
+            android:textColor="#fff"
+            android:textSize="10sp"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="12345678@sina.com"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="小明"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+</LinearLayout>

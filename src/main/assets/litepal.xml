@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cash"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.example.assets.model.IncomeAndOutcome"/>
+        <mapping class="com.example.assets.model.Category"/>
+        <mapping class="com.example.assets.model.Account"/>
+        <mapping class="com.example.assets.model.User"/>
+        <mapping class="com.example.assets.model.Plan"/>
+        <mapping class="com.example.assets.model.Alarm"/>
+    </list>
+</litepal>

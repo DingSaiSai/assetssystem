@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:moneytextview="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--一个支持加法运算金额输入的TextView-->
+    <com.github.andyken.moneytextview.MoneyTextView
+        android:id="@+id/main_moneyTextView"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="right"
+        android:gravity="end|center_vertical"
+        moneytextview:integerFontSize="32sp"
+        moneytextview:decimalPlaceFontSize="32sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="收入页面"/>
+
+
+</LinearLayout>
